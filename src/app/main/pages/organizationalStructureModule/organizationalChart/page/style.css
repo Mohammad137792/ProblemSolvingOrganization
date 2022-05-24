@@ -1,0 +1,104 @@
+.toolbar {
+    padding: 0.5rem;
+    margin: 10px;
+    border: 1px solid #aaa;
+    direction: ltr;
+    display: flex;
+    align-items: center;
+}
+
+.orgchart-container {
+    direction: ltr;
+}
+
+.orgchart {
+    background-color: transparent;
+    background-image: none
+}
+
+.orgchart ul li .oc-node .oc-content {
+    box-sizing: border-box;
+    padding: 3px;
+    width: 130px;
+    height: 20px;
+    font-size: 1rem;
+    border: 1px solid rgba(217, 83, 79, 0.8);
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+button {
+    box-sizing: border-box;
+    padding: 6px 12px;
+    font-size: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    color: #fff;
+    background-color: #5cb85c;
+    border: 2px solid #5cb85c;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: 0.3;
+}
+
+button:hover,
+button:focus,
+button:active {
+    color: #5cb85c;
+    background-color: #fff;
+}
+
+.orgchart ul li .oc-node .oc-content {
+    box-sizing: border-box;
+    padding: 3px;
+    width: auto;
+    height: 40px;
+    font-size: 1.75rem;
+    border: 1px solid rgba(217, 83, 79, 0.8);
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.orgchart ul li .oc-node .oc-heading {
+    box-sizing: border-box;
+    padding: 6px;
+    margin: 0;
+    width: auto;
+    height: 40px;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: rgba(217, 83, 79, 0.8);
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+}
+
+.orgchart ul li .oc-node .oc-heading .oc-symbol {
+    display: none;
+    /* float: left;
+    margin-top: 12px;
+    margin-left: 2px; */
+}
+
+#re-txt-png {
+    display: flex;
+    align-items: center;
+}
